@@ -1,0 +1,30 @@
+18:06:23  MSC Authorization Information - Checkout Successful (1016, 0)
+18:06:23  -------------------------------------------------------------
+18:06:23  Acquired 1 license for Student Edition Nastran
+18:06:24  Analysis started.
+18:06:24  Geometry access/verification to CAD part initiated (if needed).
+18:06:24  Geometry access/verification to CAD part successfully completed (if needed).
+18:06:24  Finite element model generation started.
+18:06:24  Finite element model generated 63672 degrees of freedom.
+18:06:24  Finite element model generation successfully completed.
+18:06:24  Application of Loads and Boundary Conditions to the finite element model started.
+18:06:24  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+18:06:24  MSC Authorization Information - System Attributes (1004, 0)
+18:06:24  -----------------------------------------------------------
+ Date:          Tue Feb  2 18:06:24 2021
+ LAPI Version:  LAPI 10.6.6 (CL 725511) (FLEXlm 11.16.3.0)
+ License Mode:  Student Edition
+ * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * *
+ * *                                 * *
+ * *   MSC Customer Entitlement ID   * *
+ * *        15179f2c-G9A280C7        * *
+ * *                                 * *
+ * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * *
+18:06:25  MSC Authorization Information - Checkout Successful (1016, 0)
+18:06:25  -------------------------------------------------------------
+18:06:25  Acquired 1 license for Student Edition Nastran ADAMS Integration
+18:06:25  20 records read from JID file "c:\Users\lukas\Documents\Dodo_Alive_WS2020\tmp_mesh.dat"
+18:06:25  NSEXIT: EXIT(0)
+

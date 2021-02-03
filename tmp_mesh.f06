@@ -1,0 +1,304 @@
+Beginning Analysis
+
+ *** START OF CONTROL FILE ECHO ***
+ $ sysfield=SCR*(RAW=YES,BUFFIO=YES,wnum=16,wsize=16mb) $(c:/progra~1/msc~1.sof/adamss~1/2020_1/viewflex/mdss/win8664/conf/nast20200.rcf[2])
+ $ sysfield=DBALL(RAW=YES,BUFFIO=YES,wnum=16,wsize=16mb) $(c:/progra~1/msc~1.sof/adamss~1/2020_1/viewflex/mdss/win8664/conf/nast20200.rcf[3])
+ JID='c:\Users\lukas\Documents\Dodo_Alive_WS2020\tmp_mesh.dat'
+ OUT='./tmp_mesh'
+ MEM=8092MB      $
+ MACH='Intel'
+ OPER='Windows 10 Home'
+ OSV='6.2 9200'
+ MODEL='Xeon/3733 (LAPTOP-EJJHEI09)'
+ NPROC='12'
+ CONFIG=6
+ NPROC=12
+ symbol=DELDIR='c:/progra~1/msc~1.sof/adamss~1/2020_1/viewflex/mdss/win8664/msc20200/nast/del' $(program default)
+ symbol=DEMODIR='c:/progra~1/msc~1.sof/adamss~1/2020_1/viewflex/mdss/win8664/msc20200/nast/demo' $(program default)
+ symbol=MKL_INTERFACE_LAYER=ILP64 $(c:/progra~1/msc~1.sof/adamss~1/2020_1/viewflex/mdss/win8664/conf/nast20200.rcf[1])
+ symbol=SSSALTERDIR='c:/progra~1/msc~1.sof/adamss~1/2020_1/viewflex/mdss/win8664/msc20200/nast/sssalter' $(program default)
+ symbol=TPLDIR='c:/progra~1/msc~1.sof/adamss~1/2020_1/viewflex/mdss/win8664/msc20200/nast/tpl' $(program default)
+ SDIR='./tmp_mesh.T5284_23'
+ DBS='./tmp_mesh.T5284_23'
+ SCR='yes'
+ SMEM=100
+ BPOOL=2023.1MB
+ DMPMEM=estimate
+ NEWDEL='c:/progra~1/msc~1.sof/adamss~1/2020_1/viewflex/mdss/win8664/msc20200/win64i8/SSS'
+ DEL='c:/progra~1/msc~1.sof/adamss~1/2020_1/viewflex/mdss/win8664/msc20200/win64i8/sss'
+ DML=MSCDEF
+ SDL=MSCDEF
+ AUTH='EDU'
+ AUTHQUE=20
+ MSGCAT='c:/progra~1/msc~1.sof/adamss~1/2020_1/viewflex/mdss/win8664/msc20200/win64i8/analysis.msg'
+ MSGDEST='f06'
+ PROG=EDU
+ *** END OF CONTROL FILE ECHO ***
+
+1
+ 
+ 
+ 
+ 
+                      Warning: This computer program is protected by copyright law and international treaties.       
+                  Unauthorized use, reproduction or distribution of this computer program, or any portion of it, may 
+                                          result in severe civil and criminal penalties.                             
+                         Copyright (C) 2020 MSC Software Corporation and its licensors. All rights reserved.         
+ 
+ 
+                                              * * * * * * * * * * * * * * * * * * * *
+                                              * * * * * * * * * * * * * * * * * * * *
+                                              * *                                 * *
+                                              * *           MSC Software          * *
+                                              * *               CORP              * *
+                                              * *                                 * *
+                                              * *  DMAPSOLVER  C o m p o n e n t  * *
+                                              * *                                 * *
+                                              * *  S T U D E N T   E D I T I O N  * *
+                                              * *                                 * *
+                                              * *      Version 2020-CL726340      * *
+                                              * *                                 * *
+                                              * *                                 * *
+                                              * *                                 * *
+                                              * *          MAY  1, 2020           * *
+                                              * *                                 * *
+                                              * *              Intel              * *
+                                              * *MODEL Xeon/3733 (LAPTOP-EJJHEI09 * *
+                                              * *    Windows 10 Home 6.2 9200     * *
+                                              * * Compiled for 8664 (SINGLE Mode) * *
+                                              * *                                 * *
+                                              * * * * * * * * * * * * * * * * * * * *
+                                              * * * * * * * * * * * * * * * * * * * *
+
+ 
+ 
+                                                 This Student Edition version is  
+                                                    valid until APR 30, 2022.     
+ 
+ 
+                  This program is being distributed as part of the MSC Software Student Edition. Use of this program 
+                     or its results at a commercial installation, for commercial purposes, or for production work    
+                                             I S   S T R I C T L Y  P R O H I B I T E D.                             
+                  ==================================== FOR EDUCATIONAL USE ONLY =====================================
+ 
+ 
+1                                                       **STUDENT EDITION* FEBRUARY   2, 2021      Adams Vi 5/ 1/20   PAGE     1
+                                                                                                                                    
+0        N A S T R A N    F I L E    A N D    S Y S T E M    P A R A M E T E R    E C H O                                           
+0                                                                                                                                   
+                                                                                                                                    
+                                                                                                                                    
+     $ SYSFIELD=SCR*(RAW=YES,BUFFIO=YES,WNUM=16,WSIZE=16MB) $(C:/PROGRA|1/MSC|1.SOF/A
+     $ SYSFIELD=DBALL(RAW=YES,BUFFIO=YES,WNUM=16,WSIZE=16MB) $(C:/PROGRA|1/MSC|1.SOF/
+     $                                                                               
+     $ EXPORTED BY VIEWFLEX                                                          
+     $                                                                               
+     $ ESTIMATED NUMBER OF DOFS:        31836                                        
+     $ ESTIMATED NUMBER OF GRIDS:       10612                                        
+     $ ESTIMATED NUMBER OF 1D ELEMENTS: 0                                            
+     $ ESTIMATED NUMBER OF 2D ELEMENTS: 0                                            
+     $ ESTIMATED NUMBER OF 3D ELEMENTS: 35944                                        
+     $                                                                               
+     $ ESTIMATED BUFFER SIZE: 8193                                                   
+     $ ESTIMATED MEMORY SIZE: MAX                                                    
+     $                                                                               
+     NASTRAN BUFFSIZE=8193                                                           
+1                                                       **STUDENT EDITION* FEBRUARY   2, 2021      Adams Vi 5/ 1/20   PAGE     2
+                                                                                                                                    
+0        N A S T R A N    E X E C U T I V E    C O N T R O L    E C H O                                                             
+0                                                                                                                                   
+                                                                                                                                    
+                                                                                                                                    
+     SOL 103                                                                                 
+     GEOMCHECK NONE                                                                          
+     CEND                                                                                    
+1                                                       **STUDENT EDITION* FEBRUARY   2, 2021      Adams Vi 5/ 1/20   PAGE     3
+                                                                                                                                    
+0                                                                                                                                   
+0                                        C A S E    C O N T R O L    E C H O                                                        
+                 COMMAND                                                                                                            
+                 COUNT                                                                                                              
+                  1      ECHO   = NONE                                                                           
+                  2      ADAMSMNF FLEXBODY=YES MINVAR=RIGID                                                      
+                  3      AUTOSPC(NOPRINT)=YES                                                                    
+                  4      BEGIN BULK                                                                              
+1                                                       **STUDENT EDITION* FEBRUARY   2, 2021      Adams Vi 5/ 1/20   PAGE     4
+                                                                                                                                    
+0                                                                                                                                   
+                                        M O D E L   S U M M A R Y          BULK = 0
+                                   ENTRY NAME        NUMBER OF ENTRIES
+                                   ----------        -----------------
+                                       CTETRA                    35944
+                                          DTI                        1
+                                         GRID                    10612
+                                         MAT1                        1
+                                        PARAM                        1
+                                       PSOLID                        1
+
+ ^^^     
+ ^^^ >>> IFP OPERATIONS COMPLETE <<< 
+ ^^^     
+1                                                       **STUDENT EDITION* FEBRUARY   2, 2021      Adams Vi 5/ 1/20   PAGE     5
+                                                                                                                                    
+0                                                                                                                                   
+                           O U T P U T   F R O M   G R I D   P O I N T   W E I G H T   G E N E R A T O R
+0                                                     REFERENCE POINT =        0
+                                                                M O
+                      *  8.757763E-02  0.000000E+00  0.000000E+00  0.000000E+00  1.993348E-10 -1.694375E-02 *
+                      *  0.000000E+00  8.757763E-02  0.000000E+00 -1.993348E-10  0.000000E+00 -3.642218E-09 *
+                      *  0.000000E+00  0.000000E+00  8.757763E-02  1.694375E-02  3.642218E-09  0.000000E+00 *
+                      *  0.000000E+00 -1.993348E-10  1.694375E-02  3.280960E-03  4.303452E-09  4.275180E-09 *
+                      *  1.993348E-10  0.000000E+00  3.642218E-09  4.303452E-09  6.131380E-05 -6.347088E-11 *
+                      * -1.694375E-02 -3.642218E-09  0.000000E+00  4.275180E-09 -6.347088E-11  3.340187E-03 *
+                                                                 S
+                                           *  1.000000E+00  0.000000E+00  0.000000E+00 *
+                                           *  0.000000E+00  1.000000E+00  0.000000E+00 *
+                                           *  0.000000E+00  0.000000E+00  1.000000E+00 *
+                               DIRECTION
+                          MASS AXIS SYSTEM (S)     MASS              X-C.G.        Y-C.G.        Z-C.G.
+                                  X            8.757763E-02      0.000000E+00  1.934712E-01  2.276093E-09
+                                  Y            8.757763E-02     -4.158845E-08  0.000000E+00  2.276093E-09
+                                  Z            8.757763E-02     -4.158845E-08  1.934712E-01  0.000000E+00
+                                                                I(S)
+                                           *  2.831625E-06 -3.598787E-09 -4.275180E-09 *
+                                           * -3.598787E-09  6.131380E-05  2.490533E-11 *
+                                           * -4.275180E-09  2.490533E-11  6.205824E-05 *
+                                                                I(Q)
+                                           *  2.831624E-06                             *
+                                           *                6.131380E-05               *
+                                           *                              6.205824E-05 *
+                                                                 Q
+                                           *  1.000000E+00  6.153650E-05  7.218342E-05 *
+                                           * -6.153651E-05  1.000000E+00  0.000000E+00 *
+                                           * -7.218342E-05 -4.441916E-09  1.000000E+00 *
+
+1                                                       **STUDENT EDITION* FEBRUARY   2, 2021      Adams Vi 5/ 1/20   PAGE     6
+                                                                                                                                    
+0                                                                                                                                   
+1                                                       **STUDENT EDITION* FEBRUARY   2, 2021      Adams Vi 5/ 1/20   PAGE     7
+                                                                                                                                    
+0                                                                                                                                   
+0 RESULTANTS ABOUT ORIGIN OF SUPERELEMENT BASIC COORDINATE SYSTEM IN SUPERELEMENT BASIC SYSTEM COORDINATES.
+
+0                                                  OLOAD    RESULTANT       
+  SUBCASE/    LOAD
+  DAREA ID    TYPE       T1            T2            T3            R1            R2            R3
+0        1     FX    0.000000E+00     ----          ----          ----       0.000000E+00  0.000000E+00                             
+               FY       ----       0.000000E+00     ----       0.000000E+00     ----       0.000000E+00                             
+               FZ       ----          ----       0.000000E+00  0.000000E+00  0.000000E+00     ----                                  
+               MX       ----          ----          ----       0.000000E+00     ----          ----                                  
+               MY       ----          ----          ----          ----       0.000000E+00     ----                                  
+               MZ       ----          ----          ----          ----          ----       0.000000E+00                             
+             TOTALS  0.000000E+00  0.000000E+00  0.000000E+00  0.000000E+00  0.000000E+00  0.000000E+00
+ ^^^                                     
+ ^^^ NASTRAN/ADAMS MINVAR=RIGID SELECTED 
+ ^^^ NO A-SET ORTHONORMALIZATION PERFORMED FOR SEID=0          
+ ^^^                                     
+ ^^^      NASTRAN/ADAMS INTERFACE        
+ ^^^      CALLING ADAMS MNF MODULE       
+ *** USER WARNING MESSAGE 7807 (AFERRM)
+     THE ADAMSMNF CASE CONTROL COMMAND HAS REQUESTED LOADING OF MODAL GRID POINT STRESS RESULTS THAT HAVE NOT BEEN
+     GENERATED.  THE REQUEST IS IGNORED.
+     User Action:
+     Ensure that Case Control requests for grid point stress/strain are present if output is desired.  The grid point
+     requests are placed in the OUTPUT(POST) section using SURFACE and VOLUME entries.  There must also be standard
+     STRESS and/or STRAIN Case Control output requests present.
+ *** USER WARNING MESSAGE 7807 (AFERRM)
+     THE ADAMSMNF CASE CONTROL COMMAND HAS REQUESTED LOADING OF MODAL GRID POINT STRAIN RESULTS THAT HAVE NOT BEEN
+     GENERATED.  THE REQUEST IS IGNORED.
+     User Action:
+     Ensure that Case Control requests for grid point stress/strain are present if output is desired.  The grid point
+     requests are placed in the OUTPUT(POST) section using SURFACE and VOLUME entries.  There must also be standard
+     STRESS and/or STRAIN Case Control output requests present.
+ MNF_Info: Title: 
+ MNF_Info: Name : ./tmp_mesh_0.mnf
+ MNF_Info: Type :  MSC.Nastran
+ MNF_Info: Comment 1: 
+ MNF_Info: Comment 2:  MNF created by the Adams Flex Toolkit Module Interface
+ MNF_Info: Comment 3: 
+ MNF_Info: Exporting frequency range [-1.000000e+00,1.000000e+08]
+ MNF_Info: 
+ MNF_Info: Creating a Modal Neutral File with the following information:
+ MNF_Info:                   Nodal Coords Yes
+ MNF_Info:                  Element Faces Yes
+ MNF_Info:                    Eigenvalues No
+ MNF_Info:                    Mode Shapes No
+ MNF_Info:         Global Mass Properties Yes
+ MNF_Info:                   Nodal Masses Yes
+ MNF_Info:                 Nodal Inertias No
+ MNF_Info:          Generalized Stiffness No
+ MNF_Info:               Generalized Mass No
+ MNF_Info:            Generalized Damping No
+ MNF_Info:            Mode Transformation No
+ MNF_Info:                   Stress Modes No
+ MNF_Info:                Interface Nodes No
+ MNF_Info:             Inertia Invariants Yes
+ MNF_Info:                  Modal Preload No
+ MNF_Info:                    Modal Loads No
+ MNF_Info:                   Strain Modes No
+ MNF_Info:               Nodal Pre-Stress No
+ MNF_Info:               Nodal Pre-Strain No
+ MNF_Info:               Matrix Operators No
+ MNF_Info:               Modal Load Nodal No
+ MNF_Info:                 Monitor Points No
+ MNF_Info: 
+ MNF_Info: Node info:
+ MNF_Info:    Count: 10612
+ MNF_Info: 
+ MNF_Info: Global body properties:
+ MNF_Info: Mass          : 0.087578
+ MNF_Info: Center of Mass: -0.000000 0.193471 0.000000
+ MNF_Info: Inertia Tensor: 0.003281 -0.000000 -0.000000
+ MNF_Info:                 -0.000000 0.000061 0.000000
+ MNF_Info:                 -0.000000 0.000000 0.003340
+ MNF_Info: 
+ MNF_Info: Units:
+ MNF_Info:    Mass:   KILOGRAM
+ MNF_Info:    Length: METER
+ MNF_Info:    Time:   SECOND
+ MNF_Info:    Force:  NEWTON
+ MNF_Info: 
+ MNF_Info: Number of Element Faces: 143776
+ *** SYSTEM INFORMATION MESSAGE 7801 (AFERRM)
+     THE ADAMS/FLEX MNF TOOLKIT SUCCESSFULLY CREATED A MODAL NEUTRAL FILE FOR SUPERELEMENT OR MODULE ID        0.
+ ^^^                         
+ ^^^ NASTRAN/ADAMS INTERFACE SHAPES COMPLETED    
+ ^^^        EXIT REQUESTED       
+ ^^^                         
+1                                                       **STUDENT EDITION* FEBRUARY   2, 2021      Adams Vi 5/ 1/20   PAGE     8
+                                                                                                                                    
+0                                                                                                                                   
+ * * * *  D B D I C T   P R I N T  * * * *      SUBDMAP = PRTSUM  ,  DMAP STATEMENT NO.     71
+
+
+
+0                                   * * * *  A N A L Y S I S  S U M M A R Y  T A B L E  * * * *
+0 SEID  PEID PROJ VERS APRCH      SEMG SEMR SEKR SELG SELR MODES DYNRED SOLLIN PVALID SOLNL LOOPID DESIGN CYCLE SENSITIVITY
+ --------------------------------------------------------------------------------------------------------------------------
+     0     0    1    1 '        '    T    T    T    T    T     F      F      F      0     F     -1            0           F
+0SEID = SUPERELEMENT ID.
+ PEID = PRIMARY SUPERELEMENT ID OF IMAGE SUPERELEMENT.
+ PROJ = PROJECT ID NUMBER.
+ VERS = VERSION ID.
+ APRCH = BLANK FOR STRUCTURAL ANALYSIS.  HEAT FOR HEAT TRANSFER ANALYSIS.
+ SEMG = STIFFNESS AND MASS MATRIX GENERATION STEP.
+ SEMR = MASS MATRIX REDUCTION STEP (INCLUDES EIGENVALUE SOLUTION FOR MODES).
+ SEKR = STIFFNESS MATRIX REDUCTION STEP.
+ SELG = LOAD MATRIX GENERATION STEP.
+ SELR = LOAD MATRIX REDUCTION STEP. 
+ MODES = T (TRUE) IF NORMAL MODES OR BUCKLING MODES CALCULATED.
+ DYNRED = T (TRUE) MEANS GENERALIZED DYNAMIC AND/OR COMPONENT MODE REDUCTION PERFORMED.
+ SOLLIN = T (TRUE) IF LINEAR SOLUTION EXISTS IN DATABASE.
+ PVALID = P-DISTRIBUTION ID OF P-VALUE FOR P-ELEMENTS
+ LOOPID = THE LAST LOOPID VALUE USED IN THE NONLINEAR ANALYSIS.  USEFUL FOR RESTARTS.
+ SOLNL = T (TRUE) IF NONLINEAR SOLUTION EXISTS IN DATABASE.
+ DESIGN CYCLE = THE LAST DESIGN CYCLE (ONLY VALID IN OPTIMIZATION).
+ SENSITIVITY = SENSITIVITY MATRIX GENERATION FLAG.
+ 
+ No PARAM values were set in the Control File.
+ 
+1                                        * * * END OF JOB * * *
+ 
+ 
+ No Symbolic Replacement variables or values were specified.
+
